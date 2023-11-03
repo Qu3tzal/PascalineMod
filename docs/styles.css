@@ -52,3 +52,14 @@ main > #about > p, main > #about > ul,  main > #about > h4,  main > #about > h3 
     text-align: left;
 }
 
+footer {
+    max-width: 50%;
+    margin: 100px auto;
+
+    text-align: right;
+}
+
+footer > p, footer > img {
+    display: inline-block;
+    vertical-align: middle;
+}
