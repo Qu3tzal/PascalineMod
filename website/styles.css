@@ -1,0 +1,54 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FCECD1;
+}
+
+header {
+    max-width: 50%;
+    margin: 50px auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+header > nav {
+    margin: 50px auto;
+}
+
+header > nav > a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    margin: 0px 5px;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    color: initial;
+
+    border: solid 1px saddlebrown;
+    border-radius: 5px;
+}
+
+header > nav > a.button > span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 2px;
+}
+
+main {
+    max-width: 50%;
+    margin: 100px auto;
+
+    text-align: center;
+}
+
+main > #about > img {
+    border-radius: 10px;
+}
+
+main > #about > p, main > #about > ul,  main > #about > h4,  main > #about > h3 {
+    text-align: left;
+}
+
